@@ -1,0 +1,15 @@
+
+plugin.tx_qxpanorama {
+	view {
+		# cat=plugin.tx_qxpanorama/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:qxpanorama/Resources/Private/Templates/
+		# cat=plugin.tx_qxpanorama/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:qxpanorama/Resources/Private/Partials/
+		# cat=plugin.tx_qxpanorama/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:qxpanorama/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_qxpanorama//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}
